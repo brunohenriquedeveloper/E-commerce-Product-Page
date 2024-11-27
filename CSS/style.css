@@ -124,8 +124,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: .4em;
+    padding: .7em;
     width: 90vw;
+    border-radius: 5px;
 }
 
 .zero {
@@ -153,6 +154,12 @@ body {
     font-family: var(--font-family);
     font-weight: 700;
     border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(255, 106, 0, 0.352);
+    cursor: pointer;
+}
+
+.cart-button:hover{
+background-color: rgb(253, 181, 47);
 }
 
 #cart-svg {
