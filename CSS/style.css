@@ -51,7 +51,7 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    padding: 1em;
+    padding: .8em;
     align-items: center;
 }
 
