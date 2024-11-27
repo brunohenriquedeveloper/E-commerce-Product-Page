@@ -1,3 +1,19 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root {
+--Orange: hsl(26, 100%, 55%);
+--Pale-orange: hsl(25, 100%, 94%);
+--Very-dark-blue: hsl(220, 13%, 13%);
+--Dark-grayish-blue: hsl(219, 9%, 45%);
+--Grayish-blue: hsl(220, 14%, 75%);
+--Light-grayish-blue: hsl(223, 64%, 98%);
+--White: hsl(0, 0%, 100%);
+--Black-background: hsl(0, 0%, 0%);
+--font-family: "Kumbh Sans", sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -18,6 +34,10 @@ dd {
   margin: 0;
 }
 
+body {
+    font-family: var(--font-family);
+}
+
 .images img {
     height: 40vh;
     width: 100vw;
@@ -32,6 +52,7 @@ dd {
     display: flex;
     flex-direction: row;
     padding: 1em;
+    align-items: center;
 }
 
 .top-right {
@@ -43,3 +64,101 @@ dd {
     padding-left: .5em;
 }
 
+.menu {
+    padding-right: .5em;
+}
+
+.content {
+    padding: 1em;
+}
+
+.description {
+    font-weight: 700;
+    font-size: .7rem;
+    color: var(--Dark-grayish-blue);
+    letter-spacing: .1em;
+    padding-bottom: .8em;
+}
+
+.big-description {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    font-size: .8rem;
+    color: var(--Dark-grayish-blue);
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.main-price {
+    font-weight: bolder;
+    font-size: 1.4em;
+    padding-right: .8em;
+}
+
+.discount{
+    color: white;
+    background-color: black;
+    padding: .3em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.last-price{
+    margin-left: auto;
+    color: var(--Dark-grayish-blue);
+    font-weight: 500;
+    text-decoration: line-through;
+    font-size: .8rem;
+    padding-right: 1em;
+}
+
+.add-product {
+    background-color: var(--Light-grayish-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .4em;
+    width: 90vw;
+}
+
+.zero {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.minus {
+    padding-left: .5em;
+}
+
+.plus {
+    padding-right: .5em;
+}
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin-top: .8em;
+    padding: 1em;
+    border: none;
+    background-color: var(--Orange);
+    font-family: var(--font-family);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#cart-svg {
+    height: 15px;
+    padding-right: .8em;
+    filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(10%) contrast(90%);
+    color: black;
+    fill: black;
+}
