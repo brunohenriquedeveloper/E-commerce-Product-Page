@@ -169,3 +169,41 @@ background-color: rgb(253, 181, 47);
     color: black;
     fill: black;
 }
+
+.menu-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1000; 
+    padding: 2em;
+    transition: transform 0.3s ease; 
+
+}
+
+.close-btn {
+    padding-bottom: 1em;
+}
+
+li {
+    padding-bottom: .8em;
+}
+
+nav,ul, li, a  {
+list-style: none;
+cursor: pointer;
+text-decoration: none;
+color: var(--Very-dark-blue);
+font-weight: 700;
+font-size: 1.1rem;
+margin-left: -.6em;
+}
+
+.menu-block.hidden {
+    transform: translateX(-100%);
+}
