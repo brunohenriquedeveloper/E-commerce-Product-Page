@@ -208,3 +208,28 @@ margin-left: -.6em;
     transform: translateX(-100%);
 }
 
+.previous {
+    position: absolute;
+    top: 25%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+    height: 50px;
+    margin: .4em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+}
+
+.next {
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 50%;
+    height: 50px;
+    margin: .4em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+}
+
