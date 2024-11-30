@@ -4,6 +4,10 @@ const closeBtn = document.querySelector(".close-btn")
 const minusButton = document.querySelector('.minus')
 const plusButton = document.querySelector('.plus')
 const zeroElement = document.querySelector('.zero')
+const images = document.querySelectorAll('.images img')
+const nextButton = document.querySelector('.next')
+const previousButton = document.querySelector('.previous')
+let currentIndex = 0
 
 
 menuBtn.addEventListener("click", () => {
@@ -32,3 +36,4 @@ plusButton.addEventListener('click', () => {
     let currentValue = parseInt(zeroElement.textContent);
     zeroElement.textContent = currentValue + 1;
 })
+

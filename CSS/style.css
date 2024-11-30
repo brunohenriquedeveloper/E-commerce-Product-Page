@@ -38,7 +38,7 @@ body {
     font-family: var(--font-family);
 }
 
-.main-img{
+.main-img, .main-image2, .main-image3, .main-image4{
     height: 40vh;
     width: 100vw;
 }
