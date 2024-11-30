@@ -37,3 +37,29 @@ plusButton.addEventListener('click', () => {
     zeroElement.textContent = currentValue + 1;
 })
 
+function showImage(index) {
+    images.forEach((img, i) =>{
+        img.style.display = i === index ? 'block': 'none'
+    })
+    previousButton.style.display = 'block'
+    nextButton.style.display = 'block'
+
+}
+
+showImage(currentIndex)
+
+nextButton.addEventListener("click", function(){
+    if(currentIndex < images.length -3) {
+        currentIndex ++
+        showImage(currentIndex)
+    } else {
+        showImage(currentIndex = 0)
+    }
+})
+
+previousButton.addEventListener("click", function(){
+    if(currentIndex > 0){
+        currentIndex --
+        showImage(currentIndex)
+    }
+})

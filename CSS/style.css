@@ -210,7 +210,7 @@ margin-left: -.6em;
 
 .previous {
     position: absolute;
-    top: 25%;
+    top: 35%;
     background-color: white;
     padding: 1em;
     border-radius: 50%;
@@ -219,11 +219,12 @@ margin-left: -.6em;
     padding-left: 1.1em;
     padding-right: 1.1em;
     cursor: pointer;
+    z-index: 1;
 }
 
 .next {
     position: absolute;
-    top: 25%;
+    top: 35%;
     right: 1%;
     background-color: white;
     padding: 1em;
@@ -233,5 +234,12 @@ margin-left: -.6em;
     padding-left: 1.1em;
     padding-right: 1.1em;
     cursor: pointer;
+    z-index: 10;
+    visibility: visible;
 }
 
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
