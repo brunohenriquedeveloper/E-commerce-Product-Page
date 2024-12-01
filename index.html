@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <main class="container">
         <header class="header">
             <div class="top-left">
                 <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/icon-menu.svg" alt="" class="menu">
@@ -25,11 +24,12 @@
             </div>
 
             <div class="top-right">
-                <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/icon-cart.svg" alt="">
+                <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/icon-cart.svg" alt="" id="cart">
                 <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/image-avatar.png" alt="" class="avatar-img">
             </div>
         </header>
 
+        <main class="container">
         <div class="menu-block hidden">
             <img src="ecommerce-product-page-main/ecommerce-product-page-main/images/icon-close.svg" alt="" class="close-btn">
             <nav class="">
@@ -41,6 +41,18 @@
                       <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+        </div>
+
+        <div class="cart-info hidden">
+            <section class="cart-section" id="cart-section" aria-live="polite">
+                <h3 class="cart-section__title">Cart</h3>
+                <hr>
+                <div class="cart-section__body">
+                  <p class="empty-msg">Your cart is empty.</p>
+                  <ul class="cart-section__products"></ul>
+                  <button type="button" class="cart-section__btn-checkout hidden">Checkout</button>
+                </div>
+              </section>
         </div>
 
         <div class="carousel">

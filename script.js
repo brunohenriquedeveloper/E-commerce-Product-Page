@@ -7,6 +7,9 @@ const zeroElement = document.querySelector('.zero')
 const images = document.querySelectorAll('.images img')
 const nextButton = document.querySelector('.next')
 const previousButton = document.querySelector('.previous')
+const cartButton = document.querySelector("#cart-svg")
+const cartImg = document.querySelector("#cart")
+const cartsection = document.querySelector(".cart-info")
 let currentIndex = 0
 
 
@@ -61,5 +64,17 @@ previousButton.addEventListener("click", function(){
     if(currentIndex > 0){
         currentIndex --
         showImage(currentIndex)
+    } else {
+        showImage(currentIndex = 3)
+    }
+})
+
+cartImg.addEventListener("click", function(){
+    cartsection.classList.toggle("hidden")
+})
+
+cartsection.addEventListener("click", (event) => {
+    if (!event.target.closest('.cart-section')) {
+        cartsection.classList.add("hidden");
     }
 })
