@@ -14,6 +14,7 @@ const emptyMsg = document.querySelector(".empty-msg")
 const checkoutButton = document.querySelector(".cart-section__btn-checkout")
 const cartProductsList = document.querySelector('.cart-section__body')
 const cartDiv = document.querySelector(".cart-item-block")
+const quantity2 = document.querySelector(".quantity")
 
 let currentIndex = 0
 
@@ -104,11 +105,18 @@ cartButton.addEventListener("click", function(){
 
             const totalCart = document.querySelector("#total-cart")
 
-            totalCart.style.textContent = `$${totalPrice}`
+            
+            quantity2.textContent = `${quantity}`
+
+            totalCart.textContent = `$${totalPrice}`
 
             cartProductsList.classList.add("hidden")
-            cartDiv.classList.toggle("hidden")
+            cartDiv.classList.toggle("hidden") 
+            checkoutButton.classList.toggle("hidden")
 
+} else{
+    cartDiv.classList.toggle("hidden") 
+    checkoutButton.classList.toggle("hidden")
 }})
 
 
