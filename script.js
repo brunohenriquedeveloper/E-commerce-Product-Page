@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(){
 const menuBtn = document.querySelector(".menu")
 const menuBlock = document.querySelector(".menu-block")
 const closeBtn = document.querySelector(".close-btn") 
@@ -28,6 +29,7 @@ const productInfo = {
 menuBtn.addEventListener("click", () => {
     menuBlock.classList.remove("hidden")
 })
+
 
 closeBtn.addEventListener("click", () => {
     menuBlock.classList.add("hidden")
@@ -110,13 +112,26 @@ cartButton.addEventListener("click", function(){
 
             totalCart.textContent = `$${totalPrice}`
 
-            cartProductsList.classList.add("hidden")
+            cartProductsList.classList.toggle("hidden2")
             cartDiv.classList.toggle("hidden") 
             checkoutButton.classList.toggle("hidden")
+
+           
 
 } else{
     cartDiv.classList.toggle("hidden") 
     checkoutButton.classList.toggle("hidden")
 }})
 
+const svgTrash = document.querySelector("#SVGRepo_iconCarrier")
 
+svgTrash.addEventListener("click", function(){
+    cartProductsList.classList.toggle("hidden2")
+    cartProductsList.style.display = "block"
+    cartDiv.classList.toggle("hidden") 
+    checkoutButton.classList.toggle("hidden")
+})
+
+
+
+})

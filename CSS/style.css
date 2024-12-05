@@ -355,3 +355,7 @@ margin-left: -.6em;
 .cart-section__btn-checkout:hover {
     background-color: rgb(253, 181, 47);
 }
+
+.block {
+    display: block !important;
+}
