@@ -133,5 +133,4 @@ svgTrash.addEventListener("click", function(){
     checkoutButton.classList.add("hidden");
 });
 
-
 })
