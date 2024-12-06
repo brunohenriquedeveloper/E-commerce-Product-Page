@@ -126,12 +126,12 @@ cartButton.addEventListener("click", function(){
 const svgTrash = document.querySelector("#SVGRepo_iconCarrier")
 
 svgTrash.addEventListener("click", function(){
-    cartProductsList.classList.toggle("hidden2")
-    cartProductsList.style.display = "block"
-    cartDiv.classList.toggle("hidden") 
-    checkoutButton.classList.toggle("hidden")
-})
-
+    cartProductsList.classList.add("hidden2");
+    cartProductsList.style.display = "none";
+    emptyMsg.style.display = "block";
+    cartDiv.classList.add("hidden");
+    checkoutButton.classList.add("hidden");
+});
 
 
 })
