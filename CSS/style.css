@@ -359,3 +359,22 @@ margin-left: -.6em;
 .block {
     display: block !important;
 }
+
+
+.number {
+position: relative;
+z-index: 1000;
+margin-right: -.95em;
+background-color: var(--Orange);
+padding: .2em;
+padding-right: .5em;
+padding-top: .1em;
+padding-left: .5em;
+border-radius: 50%;
+text-align: center;
+color: white;
+z-index: 1000;
+font-size: .8rem;
+font-weight: bold;
+}
+
