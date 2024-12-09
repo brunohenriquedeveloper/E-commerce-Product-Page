@@ -189,7 +189,7 @@ background-color: rgb(253, 181, 47);
     align-items: flex-start;
     z-index: 1000; 
     padding: 2em;
-    transition: transform 0.3s ease; 
+    animation: effect 0.5s ease-out forwards;
 
 }
 

@@ -36,7 +36,7 @@ closeBtn.addEventListener("click", () => {
 })
 
 menuBlock.addEventListener("click", (event) => {
-    if (event.target === menuBlock) {
+    if (!menuBlock.contains(event.target)) {
         menuBlock.classList.add("hidden")
     }
 })
