@@ -177,6 +177,17 @@ background-color: rgb(253, 181, 47);
     fill: black;
 }
 
+@keyframes slide-right {
+    0% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0px); /* Ajuste o valor conforme necessário */
+        opacity: 1; /* Mantém a opacidade */
+    }
+}
+
 .menu-block {
     position: fixed;
     top: 0;
@@ -189,7 +200,7 @@ background-color: rgb(253, 181, 47);
     align-items: flex-start;
     z-index: 1000; 
     padding: 2em;
-    animation: effect 0.5s ease-out forwards;
+    animation: slide-right 0.5s ease-out forwards;
 
 }
 
