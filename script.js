@@ -115,15 +115,16 @@ cartButton.addEventListener("click", function(){
             totalCart.textContent = `$${totalPrice}`
 
             cartProductsList.classList.toggle("hidden2")
-            cartDiv.classList.toggle("hidden") 
-            checkoutButton.classList.toggle("hidden")
+            cartDiv.classList.remove("hidden") 
+            checkoutButton.classList.remove("hidden")
             notification.textContent = `${quantity}`
-            notification.classList.toggle("hidden")
+            notification.classList.remove("hidden")
            
 
 } else{
-    cartDiv.classList.toggle("hidden") 
-    checkoutButton.classList.toggle("hidden")
+    cartDiv.classList.add("hidden") 
+    checkoutButton.classList.add("hidden")
+    notification.classList.add("hidden")
 }})
 
 const svgTrash = document.querySelector("#SVGRepo_iconCarrier")
