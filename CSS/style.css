@@ -395,3 +395,23 @@ font-size: .8rem;
 font-weight: bold;
 }
 
+@media screen and (min-width: 374px) {
+    .main-img, .main-image2, .main-image3, .main-image4{
+        height: 45vh;
+        width: 100vw;
+    }
+
+    .cart-item-block svg {
+        margin-right: -4em;
+    }
+}
+
+@media screen and (min-width: 374px) {
+    .main-img, .main-image2, .main-image3, .main-image4{
+        height: 50vh;
+    }
+
+    .cart-item-block svg {
+        margin-right: -7em;
+    }
+}
