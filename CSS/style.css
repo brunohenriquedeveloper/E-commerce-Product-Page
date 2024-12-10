@@ -415,3 +415,18 @@ font-weight: bold;
         margin-right: -7em;
     }
 }
+
+@media screen and (min-width: 767px){
+    .cart-section {
+        width: 380px;
+        margin-left: auto;
+        margin-right: 1em;
+    }
+
+    .cart-section__btn-checkout {
+        width: 340px;
+    }
+    .cart-item-block svg {
+        margin-right: -5em;
+    }
+}
