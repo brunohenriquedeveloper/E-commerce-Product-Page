@@ -38,10 +38,16 @@ body {
     font-family: var(--font-family);
 }
 
+
+@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+ 
+
+
 .main-img, .main-image2, .main-image3, .main-image4{
     height: 40vh;
     width: 100vw;
     z-index: 1;
+   animation: fadeIn 2s ease-in, ease-out 6s normal;
 }
 
 .hidden {
@@ -183,8 +189,8 @@ background-color: rgb(253, 181, 47);
         opacity: 1;
     }
     100% {
-        transform: translateX(0px); /* Ajuste o valor conforme necessário */
-        opacity: 1; /* Mantém a opacidade */
+        transform: translateX(0px); 
+        opacity: 1; 
     }
 }
 
