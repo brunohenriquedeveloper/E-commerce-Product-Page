@@ -485,4 +485,38 @@ font-weight: bold;
     .top-right {
         margin-right: 1em;
     }
+
+    .container {
+        display: flex;
+    }
+
+    .carousel {
+        width: 500px;
+    }
+
+    .main-img, .main-image2, .main-image3, .main-image4 {
+        width: 40vw;
+    }
+
+    .content {
+        width: 500px;
+    }
+
+    .cart-button{
+        width: 30vw;
+        margin-top: -.1em;
+    }
+
+    .add-product {
+        width: 20vw;
+        height: 2.8em;
+        align-self: center;
+        margin-right: .5em;
+    }
+
+    #buttons {
+        display: flex;
+        align-items: center;
+    }
+
 }
