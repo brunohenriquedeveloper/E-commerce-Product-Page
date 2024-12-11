@@ -377,6 +377,10 @@ margin-left: -.6em;
     display: block !important;
 }
 
+.nav {
+    display: none;
+}
+
 
 .number {
 position: relative;
@@ -421,6 +425,7 @@ font-weight: bold;
         width: 380px;
         margin-left: auto;
         margin-right: 1em;
+        margin-bottom: -1em;
     }
 
     .cart-section__btn-checkout {
@@ -428,5 +433,56 @@ font-weight: bold;
     }
     .cart-item-block svg {
         margin-right: -5em;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .top-left {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav a {
+        font-weight: 300;
+    }
+
+    .nav a:hover {
+        color: black;
+        font-weight: 600;
+    }
+
+
+    .top-left ul {
+        display: flex;
+        margin-top: 2em;
+    }
+
+    .top-left li {
+        justify-content: space-between;
+        margin-right: 1em;
+        margin-left: 1em;
+        align-items: center;
+    }
+
+    #sneakers {
+        height: 20px;
+        width: 120px;
+        align-self: center;
+        margin-left: 1em;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .top-right {
+        margin-right: 1em;
     }
 }
