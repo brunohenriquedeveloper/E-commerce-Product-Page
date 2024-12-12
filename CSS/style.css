@@ -278,7 +278,7 @@ margin-left: -.6em;
     margin-top: -17em;
     background-color: white;
     z-index: 1;
-   
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3)
 }
 
 .cart-section h3 {
@@ -496,6 +496,7 @@ font-weight: bold;
 
     .main-img, .main-image2, .main-image3, .main-image4 {
         width: 40vw;
+        border-radius: 8px;
     }
 
     .content {
@@ -519,4 +520,41 @@ font-weight: bold;
         align-items: center;
     }
 
+    .buttons {
+        display: none;
+    }
+
+    .carousel {
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+
+    .big-description {
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+        width: 45vw;
+        font-size: .85rem;
+    }
+
+    .content h2 {
+        font-size: 2rem;
+    }
+
+    .last-price {
+        margin-left: 0;
+        margin-right: auto;
+        font-weight: 700;
+    }
+
+    .prices {
+        flex-direction: column;
+    }
+    .t2 {
+        display: flex;
+        margin-right: auto;
+    }
+
+    #disc {
+        font-size: 1rem;
+    }
 }
