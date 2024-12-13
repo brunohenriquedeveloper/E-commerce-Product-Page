@@ -400,6 +400,10 @@ font-size: .8rem;
 font-weight: bold;
 }
 
+#hrheader {
+    display: none;
+}
+
 @media screen and (min-width: 374px) {
     .main-img, .main-image2, .main-image3, .main-image4{
         height: 45vh;
@@ -557,5 +561,16 @@ font-weight: bold;
 
     #disc {
         font-size: 1rem;
+    }
+
+    .top-item {
+        margin-left: 1.5em;
+    }
+
+    #hrheader {
+        display: block;
+        border: none;
+        height: 5px;
+        background-color: #130b0b; 
     }
 }
