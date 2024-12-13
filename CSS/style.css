@@ -483,12 +483,8 @@ font-weight: bold;
         margin-left: 1em;
     }
 
-    .header {
-        height: 80px;
-    }
-
     .top-right {
-        margin-right: 1em;
+       margin-left: auto;
     }
 
     .container {
@@ -567,10 +563,19 @@ font-weight: bold;
         margin-left: 1.5em;
     }
 
+
     #hrheader {
-        display: block;
-        border: none;
-        height: 5px;
-        background-color: #130b0b; 
+    display: flex;
+    color: black;
+    border-top: 1px solid rgba(240, 234, 234, 0.604);
+    width: 80%;
+    align-self: flex-end;
+    margin: auto;
+    justify-content: center;
+
+    }
+
+    .header {
+        height: 90px;
     }
 }
