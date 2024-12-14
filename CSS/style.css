@@ -681,6 +681,10 @@ font-weight: bold;
         font-size: 2.5rem;
     }
 
+    .content {
+        margin-left: 2em;
+    }
+
     .description {
         font-size: .9rem;
         margin-bottom: .5em;
