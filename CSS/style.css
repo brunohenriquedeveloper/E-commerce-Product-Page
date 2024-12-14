@@ -404,6 +404,10 @@ font-weight: bold;
     display: none;
 }
 
+.img-big {
+    display: none;
+}
+
 @media screen and (min-width: 374px) {
     .main-img, .main-image2, .main-image3, .main-image4{
         height: 45vh;
@@ -577,5 +581,24 @@ font-weight: bold;
 
     .header {
         height: 90px;
+    }
+
+    .img-big {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin-left: -1em;
+        padding-top: .5em;
+        gap: 2em;
+    }
+
+    .img-big img {
+        height: 60px;
+        border-radius: 8px;
+    }
+
+    .img-big img:hover {
+        border: 2px solid var(--Orange);
+        cursor: pointer;
     }
 }
