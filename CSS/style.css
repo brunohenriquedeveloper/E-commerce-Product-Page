@@ -502,8 +502,7 @@ font-weight: bold;
     }
 
     .main-img, .main-image2, .main-image3, .main-image4 {
-        width: 40vw;
-        max-width: 600px;
+        width: 320px;
         border-radius: 8px;
     }
 
@@ -541,7 +540,7 @@ font-weight: bold;
         margin-bottom: 1em;
         margin-top: 1.5em;
         width: 45vw;
-        font-size: .85rem;
+        font-size: .95rem;
     }
 
     .content h2 {
@@ -603,5 +602,13 @@ font-weight: bold;
     .img-big img:hover {
         border: 2px solid var(--Orange);
         cursor: pointer;
+    }
+
+    .container {
+        display: flex;
+        width: 700px;
+        margin-left: 8em;
+        margin-right: 8em;
+        padding-top: 2em;
     }
 }
