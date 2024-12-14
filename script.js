@@ -133,4 +133,19 @@ svgTrash.addEventListener("click", function(){
  location.reload()
 })
 
+
+const bigImages = document.querySelectorAll('.img-big img'); 
+
+bigImages.forEach((bigImage, index) => {
+    bigImage.addEventListener('click', () => {
+        images.forEach((image) => {
+            image.style.display = 'none';
+        });
+
+        images[index].style.display = 'block';
+    });
+
+});
+
+
 })
