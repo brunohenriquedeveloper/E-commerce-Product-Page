@@ -430,6 +430,8 @@ font-weight: bold;
 }
 
 @media screen and (min-width: 767px){
+
+
     .cart-section {
         width: 380px;
         margin-left: auto;
@@ -501,6 +503,7 @@ font-weight: bold;
 
     .main-img, .main-image2, .main-image3, .main-image4 {
         width: 40vw;
+        max-width: 600px;
         border-radius: 8px;
     }
 
@@ -588,12 +591,12 @@ font-weight: bold;
         align-items: center;
         justify-content: center;
         margin-left: -1em;
-        padding-top: .5em;
-        gap: 2em;
+        padding-top: 1em;
+        gap: 1em;
     }
 
     .img-big img {
-        height: 70px;
+        height: 60px;
         border-radius: 8px;
     }
 
