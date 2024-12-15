@@ -6,8 +6,6 @@
   <a href="#technologies">Technologies</a> •
   <a href="#about-me">About me</a> 
 </p>
-
-<p align="center">
   
   <tr>
       <td>
@@ -28,14 +26,13 @@
     <tr>
       <td>
         <h4><em>Cart Empty Design</em></h4>
-        <img width="350px" src="cart-empty-full-screen.png">
+        <img width="700px" src="cart-empty-full-screen.png">
       </td>
       <td>
         <h4><em>Cart Filled Design</em></h4>
-        <img width="350px" src="full-cart-full-screen.png">
+        <img width="700px" src="full-cart-full-screen.png">
       </td>
     </tr>
-</p>
 
 <br/>
 
