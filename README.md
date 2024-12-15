@@ -6,22 +6,31 @@
   <a href="#technologies">Technologies</a> •
   <a href="#about-me">About me</a> 
 </p>
-  
-   <h4><em>Mobile Design</em></h4><img width="350px" src="mobile-design.png"> <h4><em>Mobile Menu</em></h4><img width="350px" src="mobile-menu-option.png">
-
+  <table>
+  <tr>
+    <td>
+      <h4><em>Mobile Design</em></h4>
+      <img width="350px" src="mobile-design.png">
+    </td>
+    <td>
+      <h4><em>Mobile Menu</em></h4>
+      <img width="350px" src="mobile-menu-option.png">
+    </td>
+  </tr>
+</table>
       <td>
         <h4><em>Desktop Design</em></h4>
-        <img width="700px" src="full-screen-design.png">
+        <img width="800px" src="full-screen-design.png">
       </td>
     </tr>
     <tr>
       <td>
         <h4><em>Cart Empty Design</em></h4>
-        <img width="700px" src="cart-empty-full-screen.png">
+        <img width="800px" src="cart-empty-full-screen.png">
       </td>
       <td>
         <h4><em>Cart Filled Design</em></h4>
-        <img width="700px" src="full-cart-full-screen.png">
+        <img width="800px" src="full-cart-full-screen.png">
       </td>
     </tr>
 
