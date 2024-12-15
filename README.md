@@ -33,8 +33,6 @@
         <img width="800px" src="cart-empty-full-screen.png">
       </td>
       <td>
-      </table>
-      <table>
         <h4><em>Cart Filled Design</em></h4>
         <img width="800px" src="full-cart-full-screen.png">
       </td>
