@@ -32,6 +32,10 @@
         <h4><em>Cart Empty Design</em></h4>
         <img width="800px" src="cart-empty-full-screen.png">
       </td>
+      </tr>
+      </table>
+      <table>
+      <tr>
       <td>
         <h4><em>Cart Filled Design</em></h4>
         <img width="800px" src="full-cart-full-screen.png">
