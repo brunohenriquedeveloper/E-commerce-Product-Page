@@ -7,17 +7,8 @@
   <a href="#about-me">About me</a> 
 </p>
   
-  <tr>
-      <td>
-        <h4><em>Mobile Design</em></h4>
-        <img width="350px" src="mobile-design.png">
-      </td>
-      <td>
-        <h4><em>Mobile Menu</em></h4>
-        <img width="350px" src="mobile-menu-option.png">
-      </td>
-    </tr>
-    <tr>
+   <h4><em>Mobile Design</em></h4><img width="350px" src="mobile-design.png"> <h4><em>Mobile Menu</em></h4><img width="350px" src="mobile-menu-option.png">
+
       <td>
         <h4><em>Desktop Design</em></h4>
         <img width="700px" src="full-screen-design.png">
