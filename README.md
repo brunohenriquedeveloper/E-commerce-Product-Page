@@ -9,11 +9,32 @@
 
 <p align="center">
   
-  <img
-    src="Newsletter sign-up form with success message.png"
-    width="900px"
-    style="display: inline; border-radius: 15px; border: "
-  />
+  <tr>
+      <td>
+        <h4><em>Mobile Design</em></h4>
+        <img width="350px" src="mobile-design.png">
+      </td>
+      <td>
+        <h4><em>Mobile Menu</em></h4>
+        <img width="350px" src="mobile-menu-option.png">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4><em>Desktop Design</em></h4>
+        <img width="700px" src="full-screen-design.png">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4><em>Cart Empty Design</em></h4>
+        <img width="350px" src="cart-empty-full-screen.png">
+      </td>
+      <td>
+        <h4><em>Cart Filled Design</em></h4>
+        <img width="350px" src="full-cart-full-screen.png">
+      </td>
+    </tr>
 </p>
 
 <br/>
@@ -22,7 +43,7 @@
 
 This project was created by Front-End Mentor 
 with a focus on training the intermediate skills of HTML, CSS and JavaScript with the purpose of helping beginners to make a form and submitting information combined with a responsive landing page. In this project
-i learned to use a Javascript and the DOM manipulation and improving my css skills by doing a mobile version for different screen sizes, great responsive and web development lessons.
+I learned to use a Javascript and the DOM manipulation and improving my css skills by doing a mobile version for different screen sizes, great responsive and web development lessons, I also learned how to build a carousel of images and how to implement keyframes effects.
 
 Watch the preview of this project at this <a href="https://e-commerce-product-page-silk.vercel.app/">link</a>
 
